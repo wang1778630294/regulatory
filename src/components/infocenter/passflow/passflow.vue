@@ -1,22 +1,19 @@
 <template>
-    <div id="login">
-
+    <div id="passflow">
+      passflow
     </div>
 </template>
 
 <script type="text/ecmascript-6">
     export default {
         data() {
-            return {
-
-            }
+            return {}
         }
     }
 </script>
 
 <style lang="stylus" rel="stylesheet/stylus">
-  #login
-    width 100%
-    height 100%
+@import "~common/stylus/common.styl"
+
 </style>
 
