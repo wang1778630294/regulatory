@@ -4,6 +4,14 @@ import 'common/stylus/index.styl';
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import ElementUI from 'element-ui'
+import 'element-ui/lib/theme-chalk/index.css'
+import echarts from 'echarts'
+import Base from 'base/index/index';
+
+Vue.prototype.$echarts = echarts;
+Vue.use(Base);
+Vue.use(ElementUI);
 
 Vue.config.productionTip = false
 
